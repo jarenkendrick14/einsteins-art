@@ -14,7 +14,7 @@ module.exports = {
         'sans': ['"Lato"', 'sans-serif'],
       },
       backgroundImage: {
-        'hero-pattern': "linear-gradient(to right bottom, rgba(15, 15, 15, 0.9), rgba(15, 15, 15, 0.7)), url('https://scontent.fmnl4-4.fna.fbcdn.net/v/t39.30808-6/504128403_722888486958707_1219131620446287358_n.png?_nc_cat=100&_nc_cb=99be929b-f3b7c874&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeFgba2CO_NE4J1jTp7JSs66eCZrkCxZ9b94JmuQLFn1v0JX1mGqCjq8SsGnbAEe0dy0JT_EbK-j-mjZh1TpOZZ7&_nc_ohc=f3m7QwpDk88Q7kNvwHXlKqi&_nc_oc=AdmyAV3epPVJmsCDCzztEMZMLZ00_MveqXHKY8_YKx4RLsoJt8ejineunGknYrn8eb0&_nc_zt=23&_nc_ht=scontent.fmnl4-4.fna&_nc_gid=AjHXw-e-OXY-STLFpuJaSg&oh=00_AfndhR7Axb4MbQxjRI_McPaZUkm6TNYQNXrbyoZ2OFuVyg&oe=693B4DDE')",
+        'hero-pattern': "linear-gradient(to right bottom, rgba(15, 15, 15, 0.9), rgba(15, 15, 15, 0.7)), url('https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&q=80&w=1920')",
       },
       animation: {
         'fade-in-up': 'fadeInUp 1s ease-out forwards',
