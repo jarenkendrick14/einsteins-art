@@ -1,0 +1,49 @@
+<!-- Hero Section -->
+<div class="relative h-screen flex items-center justify-center bg-hero-pattern bg-cover bg-center bg-fixed bg-no-repeat">
+  <div class="text-center px-4 animate-fade-in-up">
+    <p class="text-art-gold tracking-[0.3em] uppercase text-sm mb-4 font-bold">Hand-Painted Masterpieces</p>
+    <h1 class="text-6xl md:text-8xl font-serif text-white mb-6 leading-tight">
+      Distinctly <span class="italic text-art-gold">You.</span>
+    </h1>
+    <p class="text-gray-300 text-xl md:text-2xl mb-10 max-w-2xl mx-auto font-light">
+      Wearable art that speaks before you do. 
+      Elevate your everyday with Einstein's Art.
+    </p>
+    
+    <!-- Button Fixed: Added z-index relative and hover effects -->
+    <a routerLink="/products" 
+       class="relative inline-block px-10 py-4 border border-art-gold text-art-gold font-bold uppercase tracking-widest hover:bg-art-gold hover:text-black transition-all duration-500 transform hover:scale-105 cursor-pointer">
+      Shop The Collection
+    </a>
+  </div>
+</div>
+
+<!-- Philosophy Section -->
+<div class="bg-art-cream py-24">
+  <div class="container mx-auto px-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+      <div class="relative">
+        <div class="absolute -top-4 -left-4 w-full h-full border-2 border-art-gold"></div>
+        <img src="https://images.unsplash.com/photo-1594223274512-ad4803739b7c?auto=format&fit=crop&q=80&w=800" 
+             alt="Artist Painting" class="relative z-10 w-full shadow-2xl grayscale hover:grayscale-0 transition duration-700">
+      </div>
+      <div>
+        <h2 class="text-4xl font-serif text-art-black mb-6">Effortlessly Elegant.</h2>
+        <p class="text-gray-600 text-lg mb-6 leading-relaxed">
+          In a world of mass production, we choose the brush. Every bag in our collection is a canvas, 
+          hand-painted by local artisans in Capital Town Pampanga.
+        </p>
+        <div class="grid grid-cols-2 gap-8 mt-8">
+          <div>
+            <h3 class="text-2xl font-serif text-art-gold mb-2">100%</h3>
+            <p class="text-sm uppercase tracking-wide text-gray-500">Hand Painted</p>
+          </div>
+          <div>
+            <h3 class="text-2xl font-serif text-art-gold mb-2">Unique</h3>
+            <p class="text-sm uppercase tracking-wide text-gray-500">One of a kind</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
